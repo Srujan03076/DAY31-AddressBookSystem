@@ -48,3 +48,7 @@ SELECT * FROM AddressBookTable;
 --------------------------UC6-----------------
 ---------------Retrieve data belongs to state or city---------
 SELECT FirstName FROM  AddressBookTable WHERE City='Bhubaneswar' or StateName='Odisha';
+
+-----------------UC7--------------------------
+------Size or Count of addressbook using state and city--------
+ SELECT COUNT(City) AS Size,City,StateName FROM AddressBookTable GROUP BY StateName,City;
