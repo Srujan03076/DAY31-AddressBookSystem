@@ -52,3 +52,8 @@ SELECT FirstName FROM  AddressBookTable WHERE City='Bhubaneswar' or StateName='O
 -----------------UC7--------------------------
 ------Size or Count of addressbook using state and city--------
  SELECT COUNT(City) AS Size,City,StateName FROM AddressBookTable GROUP BY StateName,City;
+
+
+ --------------------UC8--------------
+-------Sort the name alphabetically using city name--------
+SELECT FirstName FROM AddressBookTable WHERE City='Rourkela' ORDER BY FirstName;
