@@ -38,3 +38,9 @@ UPDATE AddressBookTable SET LastName='Mahajan' WHERE FirstName='Suchitra';
 UPDATE AddressBookTable SET EmailId='smita123@gmail.com' WHERE LastName='Sutar';
 UPDATE AddressBookTable SET ZipCode='751185' WHERE FirstName='Suchitra';
 SELECT * FROM AddressBookTable;
+
+
+---------------------UC5---------------
+------Delete a contact using perosn name-----
+DELETE FROM AddressBookTable WHERE FirstName='Sujata';
+SELECT * FROM AddressBookTable;
