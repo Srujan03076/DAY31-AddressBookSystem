@@ -41,6 +41,6 @@ SELECT * FROM AddressBookTable;
 
 
 ---------------------UC5---------------
-------Delete a contact using perosn name-----
+------Delete a contact using person name-----
 DELETE FROM AddressBookTable WHERE FirstName='Sujata';
 SELECT * FROM AddressBookTable;
