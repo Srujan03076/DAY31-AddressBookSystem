@@ -44,3 +44,7 @@ SELECT * FROM AddressBookTable;
 ------Delete a contact using person name-----
 DELETE FROM AddressBookTable WHERE FirstName='Sujata';
 SELECT * FROM AddressBookTable;
+
+--------------------------UC6-----------------
+---------------Retrieve data belongs to state or city---------
+SELECT FirstName FROM  AddressBookTable WHERE City='Bhubaneswar' or StateName='Odisha';
